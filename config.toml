@@ -1,5 +1,5 @@
-title = "Airspace for Hugo"
-baseURL = "https://www.example.com"
+title = "Beta Alpha Rho Fraternity"
+baseURL = "betaalpharho.org"
 languageCode = "en-us"
 theme = "airspace-hugo"
 #themesDir = "../.."
