@@ -1,0 +1,169 @@
+title = "Airspace for Hugo"
+baseURL = "https://www.example.com"
+languageCode = "en-us"
+theme = "airspace-hugo"
+#themesDir = "../.."
+[menu]
+
+  [[menu.header]]
+    weight = 2
+    name = "Rush"
+    url = "/rush"
+  [[menu.header]]
+    weight = 3
+    name = "Executive Board"
+    url = "/eboard"
+  [[menu.header]]
+    weight = 4
+    name = "Members"
+    url = "/members"
+  [[menu.header]]
+    weight = 5
+    name = "Contact"
+    url = "/contact"
+
+  [[menu.footer]]
+    weight = 1
+    name = "About us"
+    url = "#"
+  [[menu.footer]]
+    weight = 2
+    name = "Contact us"
+    url = "#"
+  [[menu.footer]]
+    weight = 3
+    name = "How it works"
+    url = "#"
+  [[menu.footer]]
+    weight = 4
+    name = "Blog"
+    url = "#"
+  [[menu.footer]]
+    weight = 5
+    name = "Terms"
+    url = "#"
+
+# The site's parameters
+[params]
+
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+  dateFormat = "6 January 2006"
+
+  home = "Home"
+
+  [params.slider]
+    enable = true
+    title = "BETA ALPHA RHO"
+    subtitle = "University of Michigan<br>Pre-Law Fraternity"
+
+  [params.wrapper]
+    enable = true
+    title = "About Us"
+    #italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+    paragraph = "Beta Alpha Rho was founded on MONTH DAY, YEAR because REASON. We aim to attract members interested in law, policy, and social change, but we invite anyone with interest to join us. We are primarily pre-law and public policy students, but our members come from a diverse range of backgrounds including Computer Science, Biochemistry, Finance, and more."
+
+  [params.rush]
+    enable = true
+    title = "Rush Schedule"
+    subtitle = "Want to learn more? Feel free to attend one of our rush events!"
+    content = "Mass Meeting: Thursday, January 25, 2018 (7-9 pm) @ Angell Hall Aud C <br> Speed Dating: Saturday, January 27, 2018 (7-9 pm) @ League, Henderson <br> Get to know the bros: Monday, January 29, 2018 (7-9 pm) @ League, Henderson <br> Debates: Wednesday, January 31, 2018 (7-9 pm) @ League, Henderson"
+    [params.feature.button]
+      caption = "View Works"
+      url = "#"
+
+  [params.eboard]
+    enable = true
+    title = "Executive Board"
+    subtitle = ""
+
+      [[params.eboard.people]]
+        img = "president.jpg"
+        title = "Dim Mang - President"
+        major = "Major: History"
+        year = "Year: Junior"
+      [[params.eboard.people]]
+        img = "vp.jpg"
+        title = "Caleb Hogeterp - Vice President"
+        major = "Major: AAAAAAAAAAAAAAAAA"
+        year = "Year: D'EGG"
+      [[params.eboard.people]]
+        img = "secretary.jpg"
+        title = "Stephanie Glenn - Secretary"
+        major = "Major: History"
+        year = "Year: Junior"
+      [[params.eboard.people]]
+        img = "treasurer.jpg"
+        title = "Elizabeth Chon - Treasurer"
+        major = "Major: History"
+        year = "Year: Junior"
+      [[params.eboard.people]]
+        img = "fundraising.jpg"
+        title = "Jennifer Meer - Fundraising Chair"
+        major = "Major: History"
+        year = "Year: Junior"
+      [[params.eboard.people]]
+        img = "recruitment1.jpg"
+        title = "Ivona Popova - Recruitment Chair"
+        major = "Major: History"
+        year = "Year: Junior"
+      [[params.eboard.people]]
+        img = "recruitment2.jpg"
+        title = "Sophia Kim - Recruitment Chair"
+        major = "Major: History"
+        year = "Year: Junior"
+      [[params.eboard.people]]
+        img = "philanthropy.jpg"
+        title = "Erin Hahn - Philanthropy Chair"
+        major = "Major: History"
+        year = "Year: Junior"
+      [[params.eboard.people]]
+        img = "professionaldevelopment.jpg"
+        title = "Kate Thompson - Professional Development Chair"
+        major = "Major: History"
+        year = "Year: Junior"
+      [[params.eboard.people]]
+        img = "social.jpg"
+        title = "Ashley Munger - Social Chair"
+        major = "Major: History"
+        year = "Year: Junior"
+      [[params.eboard.people]]
+        img = "4.jpg"
+        title = "Anu Nandi - Diversity & Inclusion Chair"
+        major = "Major: History"
+        year = "Year: Junior"
+      [[params.eboard.people]]
+        img = "pfc1.jpg"
+        title = "Tatum Doyle - Professional Fraternity Council Rep"
+        major = "Major: History"
+        year = "Year: Junior"
+      [[params.eboard.people]]
+        img = "pfc2.jpg"
+        title = "Nathan Baylis - Professional Fraternity Council Rep"
+        major = "Major: History"
+        year = "Year: Junior"
+
+  [params.call]
+    enable = false
+    title = "We design delightful digital experiences."
+    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+
+  [params.contact]
+    enable = true
+    title = "Drop us a note"
+    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    [params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      subject = "Your subject"
+      message = "Your message"
+      button = "Send message"
+    [params.contact.box]
+      title = "Stop by for a visit"
+      address = "North Main Street, Brooklyn Australia"
+      email = "Email: contact@mail.com"
+      phone = "Phone: +88 01672 506 744"
+    [params.contact.gmaps]
+      title = "We Also Count in Google Maps"

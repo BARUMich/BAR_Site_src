@@ -1,0 +1,25 @@
+{{ partial "global-header.html" . }}
+
+<section id="eboard">
+<div class="container">
+    <div class="row" style="margin-top:50px">
+        {{ range $e := .Site.Params.eboard.people }}
+        <div class="col-md-4 col-sm-6 eboard-item">
+<!--          <a href="#portfolioModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">-->
+<!--            <div class="portfolio-hover">-->
+<!--              <div class="portfolio-hover-content">-->
+<!--                <i class="fa fa-plus fa-3x"></i>-->
+<!--              </div>-->
+<!--            </div>-->
+            {{ $url := printf "img/eboard/%s" .img }}
+            <img src="{{ $url | absURL }}" class="center" alt="">
+          </a>
+          <div class="eboard-caption">
+            <h4>{{ .title | markdownify }}</h4>
+            <p class="text-muted">{{ .major | markdownify }}</p>
+            <p class="text-muted">{{ .year | markdownify }}</p>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+</section>

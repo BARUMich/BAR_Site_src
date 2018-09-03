@@ -1,0 +1,50 @@
+{{ partial "global-header.html" . }}
+
+<section id="members">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-6">
+      <h2 class="text-uppercase">{{ .Site.Params.members.title }}</h2>
+      {{ with .Site.Params.rush.button }}
+      	<a href="{{ .url }}" class="btn btn-main">{{ .caption }}</a>
+      {{ end }}
+    </div>
+  </div>
+  <div class="col-lg-12 text-center">
+    <div class="container">
+      <div class="tbl">
+        <div class="row">
+	  <div class="col"><h2 class="class-header">Alpha</h2></div>
+     	  {{ range $i := (seq 1 20)}}
+          <div class="col">Member {{ $i }}</div>
+          {{end}}
+        </div>
+        <div class="row">
+	  <div class="col"><h2 class="class-header">Beta</h2></div>
+     	  {{ range $i := (seq 1 20)}}
+          <div class="col">Member {{ $i }}</div>
+          {{end}}
+        </div>
+        <div class="row">
+	  <div class="col"><h2 class="class-header">Gamma</h2></div>
+     	  {{ range $i := (seq 1 20)}}
+          <div class="col">Member {{ $i }}</div>
+          {{end}}
+        </div>
+        <div class="row">
+	  <div class="col"><h2 class="class-header">Delta</h2></div>
+     	  {{ range $i := (seq 1 20)}}
+          <div class="col">Member {{ $i }}</div>
+          {{end}}
+        </div>
+        <div class="row">
+	  <div class="col"><h2 class="class-header">Epsilon</h2></div>
+     	  {{ range $i := (seq 1 20)}}
+          <div class="col">Member {{ $i }}</div>
+          {{end}}
+        <div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
