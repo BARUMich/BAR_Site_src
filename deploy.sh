@@ -9,6 +9,7 @@ if [ "$1" != "" ]; then
 
     # committing and pushing work to hosted site repo
     cd public
+    rm .gitignore
     git add .
     git commit -m "$1"
     git push origin master
