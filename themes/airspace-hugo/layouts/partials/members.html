@@ -1,5 +1,9 @@
 {{ partial "global-header.html" . }}
 
+<!--
+var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+-->
 
 <section id="members">
 <div class="container">
@@ -8,7 +12,17 @@
       <div class="tbl" style="margin-top: 50px">
       	    {{ $len := len .Site.Params.members.classes }}
             {{ range $idx, $e := .Site.Params.members.classes }}
-            {{ if (modBool $idx 5) }}
+            <script>
+            	var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+            	if (w > 991) {
+            		{{ $cols := 5 }}
+            	} else if (w <= 991 && w >= 768) {
+            		{{ $cols := 3 }}
+            	} else if (w < 768) {
+            		{{ $cols := 1 }}
+            	}
+            </script>
+            {{ if (modBool $idx $cols) }}
             <div>
             {{ end }}
             	<div class="row">
@@ -20,7 +34,7 @@
 	            	{{ end }}
 	            </div>
     
-            {{ if or ((modBool (add 1 $idx) 5)) (eq $idx $len ) }}
+            {{ if or ((modBool (add 1 $idx) $cols)) (eq $idx $len ) }}
             </div>
             {{ end }}
             
