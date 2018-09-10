@@ -90,7 +90,7 @@ theme = "airspace-hugo"
         title = "Caleb Hogeterp - Vice President"
         major = "Major: Community and Global Health"
         year = "Year: Junior"
-	about = ""
+	about = "Caleb’s interest in the law comes from his love of public health. He hopes to pursue both his JD and MPH after graduation, in order to work as a lawyer involved in healthcare and other public health adjacent fields. As well as being Vice President, Caleb does Environmental Health Sciences research focused on food losses, writes for SHEI magazine, is the University Communications Chair for Students for Students, and is an avid rock climber."
       [[params.eboard.people]]
         img = "secretary.jpg"
         title = "Stephanie Glenn - Secretary"
