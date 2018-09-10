@@ -1,4 +1,3 @@
-#test
 title = "Beta Alpha Rho Fraternity"
 baseURL = "http://betaalpharho.org/"
 languageCode = "en-us"
@@ -158,6 +157,149 @@ theme = "airspace-hugo"
         major = "Major: Public Policy"
         year = "Year: Junior"
 	about = ""
+
+  [params.members]
+    [[params.members.classes]]
+      title = "Alpha"
+
+      [[params.members.classes.names]]
+        name = "Anu Nandi"
+      [[params.members.classes.names]]
+        name = "Nick Berg"  
+      [[params.members.classes.names]]
+        name = "Michael Keller"
+      [[params.members.classes.names]]
+        name = "Shirley Che" 
+      [[params.members.classes.names]]
+        name = "Sion Lee"
+      [[params.members.classes.names]]
+        name = "Katherine Goff"
+
+    [[params.members.classes]]
+      title = "Beta"
+
+      [[params.members.classes.names]]
+        name = "Ashley Munger"
+      [[params.members.classes.names]]
+        name = "Dim Mang"  
+      [[params.members.classes.names]]
+        name = "Elizabeth Chon"
+      [[params.members.classes.names]]
+        name = "Paula Laslou" 
+      [[params.members.classes.names]]
+        name = "Jennifer Meer"
+      [[params.members.classes.names]]
+        name = "Henry Milek"    
+
+    [[params.members.classes]]
+      title = "Gamma"
+
+      [[params.members.classes.names]]
+        name = "Sophia Kim"
+      [[params.members.classes.names]]
+        name = "Ivona Popova"  
+      [[params.members.classes.names]]
+        name = "Tatum Doyle"
+      [[params.members.classes.names]]
+        name = "Meera Kumar" 
+      [[params.members.classes.names]]
+        name = "Olivia Gunther"
+      [[params.members.classes.names]]
+        name = "Ben Blythe" 
+      [[params.members.classes.names]]
+        name = "Rachel Leung"
+      [[params.members.classes.names]]
+        name = "Riley Branigan"  
+      [[params.members.classes.names]]
+        name = "Sergio Villaseñor"
+      [[params.members.classes.names]]
+        name = "Brandon Pope" 
+      [[params.members.classes.names]]
+        name = "Jane Kim"
+      [[params.members.classes.names]]
+        name = "Sierra Welly"   
+      [[params.members.classes.names]]
+        name = "Jisoo Kang"
+      [[params.members.classes.names]]
+        name = "Lena Dreves" 
+      [[params.members.classes.names]]
+        name = "Margot Rice"
+      [[params.members.classes.names]]
+        name = "Mathilde Geannopulos" 
+
+    [[params.members.classes]]
+      title = "Delta"
+
+      [[params.members.classes.names]]
+        name = "Erin Hahn"
+      [[params.members.classes.names]]
+        name = "Brendan Killian"  
+      [[params.members.classes.names]]
+        name = "Caleb Hogeterp"
+      [[params.members.classes.names]]
+        name = "Daniel Bramhall" 
+      [[params.members.classes.names]]
+        name = "Izzie Kenhard"
+      [[params.members.classes.names]]
+        name = "Jordyn Houle" 
+      [[params.members.classes.names]]
+        name = "Kate Thompson"
+      [[params.members.classes.names]]
+        name = "Lexi LaChappa"  
+      [[params.members.classes.names]]
+        name = "Nathan Baylis"
+      [[params.members.classes.names]]
+        name = "Nick Guisinger" 
+      [[params.members.classes.names]]
+        name = "Noah Weingarden"
+      [[params.members.classes.names]]
+        name = "Sarah Charboneau"   
+      [[params.members.classes.names]]
+        name = "Suraj Sorab"
+      [[params.members.classes.names]]
+        name = "Sophia Vagnone" 
+      [[params.members.classes.names]]
+        name = "Stephanie Glenn"  
+
+    [[params.members.classes]]
+      title = "Epsilon"
+
+      [[params.members.classes.names]]
+        name = "Aleah Rogalsky"
+      [[params.members.classes.names]]
+        name = "Anna Marcus"  
+      [[params.members.classes.names]]
+        name = "Anthony Krempa"
+      [[params.members.classes.names]]
+        name = "Ashley Solle" 
+      [[params.members.classes.names]]
+        name = "Elizabeth Williams"
+      [[params.members.classes.names]]
+        name = "Isabella Gierlinger" 
+      [[params.members.classes.names]]
+        name = "Jordan Brady"
+      [[params.members.classes.names]]
+        name = "Julia Siegle"  
+      [[params.members.classes.names]]
+        name = "Lisi DiTullio"
+      [[params.members.classes.names]]
+        name = "Maria Graham" 
+      [[params.members.classes.names]]
+        name = "Morgan Bergstrom"
+      [[params.members.classes.names]]
+        name = "Peter Tolsma"   
+      [[params.members.classes.names]]
+        name = "Remy Farkas"
+      [[params.members.classes.names]]
+        name = "Riana Hardyniec" 
+      [[params.members.classes.names]]
+        name = "Riston Escher"
+      [[params.members.classes.names]]
+        name = "Warren Yu" 
+      [[params.members.classes.names]]
+        name = "Zachary Kolbusz"
+      [[params.members.classes.names]]
+        name = "Zayna Syed" 
 
   [params.call]
     enable = false
