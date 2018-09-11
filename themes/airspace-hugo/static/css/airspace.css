@@ -404,9 +404,9 @@ members start
 
 #members .row {
     display: table-cell;
-    width: 20%;
     padding-left: 25px;
     padding-right: 25px;
+    float: left;
 
 }
 #members .col {
