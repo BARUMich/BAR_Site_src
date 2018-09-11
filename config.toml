@@ -301,6 +301,46 @@ theme = "airspace-hugo"
       [[params.members.classes.names]]
         name = "Zayna Syed" 
 
+    [[params.members.classes]]
+      title = "Omega"
+
+      [[params.members.classes.names]]
+        name = "Aleah Rogalsky"
+      [[params.members.classes.names]]
+        name = "Anna Marcus"  
+      [[params.members.classes.names]]
+        name = "Anthony Krempa"
+      [[params.members.classes.names]]
+        name = "Ashley Solle" 
+      [[params.members.classes.names]]
+        name = "Elizabeth Williams"
+      [[params.members.classes.names]]
+        name = "Isabella Gierlinger" 
+      [[params.members.classes.names]]
+        name = "Jordan Brady"
+      [[params.members.classes.names]]
+        name = "Julia Siegle"  
+      [[params.members.classes.names]]
+        name = "Lisi DiTullio"
+      [[params.members.classes.names]]
+        name = "Maria Graham" 
+      [[params.members.classes.names]]
+        name = "Morgan Bergstrom"
+      [[params.members.classes.names]]
+        name = "Peter Tolsma"   
+      [[params.members.classes.names]]
+        name = "Remy Farkas"
+      [[params.members.classes.names]]
+        name = "Riana Hardyniec" 
+      [[params.members.classes.names]]
+        name = "Riston Escher"
+      [[params.members.classes.names]]
+        name = "Warren Yu" 
+      [[params.members.classes.names]]
+        name = "Zachary Kolbusz"
+      [[params.members.classes.names]]
+        name = "Zayna Syed" 
+
   [params.call]
     enable = false
     title = "We design delightful digital experiences."

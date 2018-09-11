@@ -394,12 +394,15 @@ members start
     display: table;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 20px;
     border: 5px solid #990000;
     text-align: center;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+   
+
 }
 
 #members .row {
