@@ -401,18 +401,23 @@ members start
     margin-right: auto;
     margin-bottom: 20px;
     margin-top: 10px;
-
-
+    max-width: 90%;
+    min-width: 60%;
 }
 
 #members .row {
+    display: table-row;
+}
+
+#members .class {
+    margin: auto;
     display: table-cell;
+    float: left;
     padding-left: 25px;
     padding-right: 25px;
-    float: left;
-
+    width: 50%;
 }
-#members .col {
+#members .name {
     display: block;
     padding-bottom: 5px;
 }
