@@ -1,0 +1,17 @@
+def graph_dp(v, e):
+    sort e by second vertex in edge // O(m log(m))
+    dp = new arr[len(v)]
+    if len(v) <= 0:
+    	return NIL
+    dp[1] = 0
+
+    for i in range(2...len(v)):
+    	dp[i] = inf
+
+    for i in range(2...len(v)):
+    	start = search(e for first element such that e[j].second == v) 
+    	for j in range(start...len(v)):
+	    if e[j].second > v:
+	        exit inner loop
+	    dp[i] = min(dp[i], v[i]+dp[e[j].first])
+    return dp[len(v)]
