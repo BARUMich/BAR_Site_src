@@ -305,7 +305,69 @@ about = "Anja is a junior majoring in economics and minoring in law, justice, an
       [[params.members.classes.names]]
         name = "Zachary Kolbusz"
       [[params.members.classes.names]]
-        name = "Zayna Syed" 
+        name = "Zayna Syed"
+
+    [[params.members.classes]]
+      title = "Zeta"
+      [[params.members.classes.names]]
+        name = "Adam Zhu"
+      [[params.members.classes.names]]
+        name = "Alison Lo"
+      [[params.members.classes.names]]
+        name = "Alayna Nugent"
+      [[params.members.classes.names]]
+        name = "Anja Naski"
+      [[params.members.classes.names]]
+        name = "Avani Samandur"
+      [[params.members.classes.names]]
+        name = "Daniel Eom"
+      [[params.members.classes.names]]
+        name = "Deana Zhu"
+      [[params.members.classes.names]]
+        name = "Devan O'Toole"
+      [[params.members.classes.names]]
+        name = "Emily Mann"
+      [[params.members.classes.names]]
+        name = "Hannah Wrobel"
+      [[params.members.classes.names]]
+        name = "Jonathan Wong"
+      [[params.members.classes.names]]
+        name = "Kayleah Son"
+      [[params.members.classes.names]]
+        name = "Lyla Yu"
+      [[params.members.classes.names]]
+        name = "Sarah Jeng"
+
+    [[params.members.classes]]
+      title = "Zeta"
+      [[params.members.classes.names]]
+        name = "Alexandria Ballard"
+      [[params.members.classes.names]]
+        name = "Caitlyn Viger"
+      [[params.members.classes.names]]
+        name = "Clare Godfryd"
+      [[params.members.classes.names]]
+        name = "Dom Peraino"
+      [[params.members.classes.names]]
+        name = "Elizabeth Cook"
+      [[params.members.classes.names]]
+        name = "Gabriel Flores"
+      [[params.members.classes.names]]
+        name = "Gabriella Valderrama"
+      [[params.members.classes.names]]
+        name = "Garrett Henderson"
+      [[params.members.classes.names]]
+        name = "Jialin Zhang"
+      [[params.members.classes.names]]
+        name = "Lauren Reyes"
+      [[params.members.classes.names]]
+        name = "Lena Sun"
+      [[params.members.classes.names]]
+        name = "Louie Orleans"
+      [[params.members.classes.names]]
+        name = "Nicole Carrieri"
+      [[params.members.classes.names]]
+        name = "Ruchi Wankhede"
 
   [params.call]
     enable = false
