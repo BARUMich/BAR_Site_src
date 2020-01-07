@@ -69,7 +69,7 @@ theme = "airspace-hugo"
     enable = true
     title = "Rush Schedule"
     subtitle = "Want to learn more? Feel free to attend one of our rush events!"
-content = "Mass Meetings: Monday, September 23rd & 24th, 7-8pm @ 3437 Mason Hall<br> Formal Mixer: September 25th, 7-9pm @ League Room 4 (1st floor)<br> Speed Dating: September 27th, 7-9pm @ 916 Greenwood<br> Debates: September 29th, 7-9pm @ League Kalamazoo Room"
+content = "Mass Meetings: January 27th @ Chem 1200 & January 28th, 7-8pm @ Angell Hall AUD C<br>Formal Mixer: January 29th, 7-9pm @ East Hall Math Atrium<br>Speed Dating: January 30th, 7-9pm @ 2455 Mason Hall<br>Debates: February 2nd, 7-9pm @ League Hussey Room<br>Interviews (Invite Only): February 5th"
     [params.feature.button]
       caption = "View Works"
       url = "#"
@@ -368,6 +368,51 @@ about = "Anja is a junior majoring in economics and minoring in law, justice, an
         name = "Nicole Carrieri"
       [[params.members.classes.names]]
         name = "Ruchi Wankhede"
+        
+    [[params.members.classes]]
+      title = "Theta"
+      [[params.members.classes.names]]
+        name = "Arwen Yoon"
+      [[params.members.classes.names]]
+        name = "Ben Dieffenbacher"
+      [[params.members.classes.names]]
+        name = "Moses Zhang"
+      [[params.members.classes.names]]
+        name = "Elena Cohen"
+      [[params.members.classes.names]]
+        name = "Emelia Ratliff"
+      [[params.members.classes.names]]
+        name = "Noah Gross"
+      [[params.members.classes.names]]
+        name = "Sarah Payne"
+      [[params.members.classes.names]]
+        name = "Claire Hao"
+      [[params.members.classes.names]]
+        name = "Gerald Sill"
+      [[params.members.classes.names]]
+        name = "Michael Deeter"
+      [[params.members.classes.names]]
+        name = "Estelle Leibowitz"
+      [[params.members.classes.names]]
+        name = "Kylie Chicilli"
+      [[params.members.classes.names]]
+        name = "Hyunwoo Luke Jeong"
+      [[params.members.classes.names]]
+        name = "Parker Fiedrich"
+      [[params.members.classes.names]]
+        name = "Anthony DiBello"
+      [[params.members.classes.names]]
+        name = "Sarah Chan"
+      [[params.members.classes.names]]
+        name = "Mackenzie Fleming"
+      [[params.members.classes.names]]
+        name = "Mary Rolfes"
+      [[params.members.classes.names]]
+        name = "Hannah Mullaly"
+      [[params.members.classes.names]]
+        name = "Lena Hoppe"
+      [[params.members.classes.names]]
+        name = "Logan Niswander"
 
   [params.call]
     enable = false
